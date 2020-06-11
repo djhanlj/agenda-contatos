@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<arquivo_selos>
+  <versao>1</versao>
+  <cns>128074</cns>
+  <selo codigo_selo="AAA114617" codigo_validacao="NVI">
+    <ato codigo="5144" data_ato="2020-03-10T08:20:45" data_protocolo="2020-03-09T11:01:01" numero_protocolo="34334" diferido="true">
+      <detalhe nome="REIS  BARBOSA LTDA ME" cpf_cnpj="13746139000120"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114618" codigo_validacao="MMM">
+    <ato codigo="5144" data_ato="2020-03-10T08:20:45" data_protocolo="2020-03-09T11:01:01" numero_protocolo="34335" diferido="true">
+      <detalhe nome="GOMES E BRITO LTDA ME" cpf_cnpj="22030238000100"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114619" codigo_validacao="EGZ">
+    <ato codigo="5144" data_ato="2020-03-10T08:20:45" data_protocolo="2020-03-09T11:01:02" numero_protocolo="34336" diferido="true">
+      <detalhe nome="REIS  BARBOSA LTDA ME" cpf_cnpj="13746139000120"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114620" codigo_validacao="PNS">
+    <ato codigo="5132" data_ato="2020-03-10T08:53:56" data_protocolo="2020-03-10T08:53:56" livro="59" folha="64" natureza_titulo="5" valor_economico="93.94" numero_protocolo="20937" diferido="true">
+      <detalhe nome="MARIA CICERA DA SILVA" cpf_cnpj="78130271168" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114621" codigo_validacao="HQK">
+    <ato codigo="5132" data_ato="2020-03-10T08:53:56" data_protocolo="2020-03-10T08:53:56" livro="77" folha="40" natureza_titulo="5" valor_economico="167.05" numero_protocolo="26635" diferido="true">
+      <detalhe nome="MARIA CICERA DA SILVA" cpf_cnpj="78130271168" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114622" codigo_validacao="DHN">
+    <ato codigo="5132" data_ato="2020-03-10T08:53:56" data_protocolo="2020-03-10T08:53:56" livro="88" folha="86" natureza_titulo="5" valor_economico="138.61" numero_protocolo="29603" diferido="true">
+      <detalhe nome="MARIA CICERA DA SILVA" cpf_cnpj="78130271168" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114623" codigo_validacao="LGH">
+    <ato codigo="5132" data_ato="2020-03-10T09:11:29" data_protocolo="2020-03-10T09:11:29" livro="99" folha="3" natureza_titulo="5" valor_economico="131.83" numero_protocolo="32373" diferido="true">
+      <detalhe nome="MARIA CICERA DA SILVA" cpf_cnpj="78130271168" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114624" codigo_validacao="TTG">
+    <ato codigo="5131" data_ato="2020-03-10T13:58:39" data_protocolo="2020-03-04T09:05:12" livro="1" folha="1" natureza_titulo="5" valor_economico="433.84" numero_protocolo="34321">
+      <detalhe nome="EDILEUZA ALVES BARROS BALEEIRO SANTANA ME" cpf_cnpj="19632846000172" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114625" codigo_validacao="EIX">
+    <ato codigo="5131" data_ato="2020-03-10T14:04:08" data_protocolo="2020-03-03T10:03:29" livro="1" folha="1" natureza_titulo="5" valor_economico="451.58" numero_protocolo="34316">
+      <detalhe nome="ANTONIO GOMES GUIMARAES" cpf_cnpj="25067539000199" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114626" codigo_validacao="VGQ">
+    <ato codigo="5131" data_ato="2020-03-10T14:04:09" data_protocolo="2020-03-03T10:03:29" livro="1" folha="1" natureza_titulo="5" valor_economico="560.00" numero_protocolo="34317">
+      <detalhe nome="ANTONIO GOMES GUIMARAES" cpf_cnpj="25067539000199" tipo="9"/>
+    </ato>
+  </selo>
+  <selo codigo_selo="AAA114627" codigo_validacao="AGK">
+    <ato codigo="5133" data_ato="2020-03-10T17:33:07" data_protocolo="2020-03-10T17:33:07" quantidade_paginas="1" numero_protocolo="0" valor_issqn="1.03">
+      <detalhe nome="ELEANDRO CHAPARINI" cpf_cnpj="89032276115"/>
+    </ato>
+  </selo>
+  <conclusao_diferido codigo_selo="AAA029532" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA058893" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA080694" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA082222" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA093423" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA093424" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA096987" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" valor_issqn="0.00" codigo_conclusao="2" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+  <conclusao_diferido codigo_selo="AAA114545" data_conclusao="2020-03-10" valor_tfj="0.40" valor_emolumento="1.47" valor_funcivil="0.15" valor_issqn="0.07"/>
+  <conclusao_diferido codigo_selo="AAA114550" data_conclusao="2020-03-10" valor_tfj="1.01" valor_emolumento="3.65" valor_funcivil="0.40" valor_issqn="0.18"/>
+  <conclusao_diferido codigo_selo="AAA114522" data_conclusao="2020-03-10" valor_tfj="0.40" valor_emolumento="1.47" valor_funcivil="0.15" valor_issqn="0.07"/>
+  <conclusao_diferido codigo_selo="AAA114529" data_conclusao="2020-03-10" valor_tfj="1.01" valor_emolumento="3.65" valor_funcivil="0.40" valor_issqn="0.18"/>
+  <conclusao_diferido codigo_selo="AAA114523" data_conclusao="2020-03-10" valor_tfj="0.40" valor_emolumento="1.47" valor_funcivil="0.15" valor_issqn="0.07"/>
+  <conclusao_diferido codigo_selo="AAA114530" data_conclusao="2020-03-10" valor_tfj="1.01" valor_emolumento="3.65" valor_funcivil="0.40" valor_issqn="0.18"/>
+  <conclusao_diferido_fisico codigo_selo="ANC355575" data_conclusao="2020-03-10" valor_tfj="0.00" valor_emolumento="0.00" valor_funcivil="0.00" observacao="Lei 3408, de 28 de dezembro de 2018. Art. 10. Paragrafo. Os protestos indevidos dos titulos ou documentos de divida publica sao isentos de emolumentos, taxas, contribuicoes e demais encargos."/>
+</arquivo_selos>
