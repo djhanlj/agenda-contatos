@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:agendacontatos/helpers/contact_helper.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 class ContactPage extends StatefulWidget {
   final Contact contact;
@@ -55,9 +56,8 @@ class _ContactPageState extends State<ContactPage> {
             onPressed: () {
               if (_editedContact.name != null &&
                   _editedContact.name.isNotEmpty) {
-                
                 print(_editedContact.toString());
-                
+
                 Navigator.pop(context, _editedContact);
               } else {
                 FocusScope.of(context).requestFocus(_nameFocus);
@@ -79,8 +79,18 @@ class _ContactPageState extends State<ContactPage> {
                         image: DecorationImage(
                             image: _editedContact.img != null
                                 ? FileImage(File(_editedContact.img))
-                                : AssetImage('images/person.png'))),
+                                : AssetImage('images/person.png')
+                        )
+                    ),
                   ),
+                  onTap: (){
+                    ImagePicker.platform.pickImage(source: ImageSource.camera).then((file) {
+                      if(file == null)return;
+                      setState(() {
+                        _editedContact.img = file.path;
+                      });
+                    });
+                  },
                 ),
                 TextField(
                   controller: _nameController,
@@ -118,31 +128,32 @@ class _ContactPageState extends State<ContactPage> {
   }
 
   Future<bool> _requestPop() {
-    if(_userEdited){
-      showDialog(context: context,
-      builder: (context){
-        return AlertDialog(
-          title: Text('Descartar Alterações'),
-          content: Text('Se sair as ações serão perdidas.'),
-          actions: <Widget>[
-            FlatButton(
-              child: Text('Cancelar'),
-              onPressed: (){
-                Navigator.pop(context);
-              },
-            ),
-            FlatButton(
-              child: Text('Sim'),
-              onPressed: (){
-                Navigator.pop(context);
-                Navigator.pop(context);
-              },
-            )
-          ],
-        );
-      });
+    if (_userEdited) {
+      showDialog(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: Text('Descartar Alterações'),
+              content: Text('Se sair as ações serão perdidas.'),
+              actions: <Widget>[
+                FlatButton(
+                  child: Text('Cancelar'),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+                FlatButton(
+                  child: Text('Sim'),
+                  onPressed: () {
+                    Navigator.pop(context);
+                    Navigator.pop(context);
+                  },
+                )
+              ],
+            );
+          });
       return Future.value(false);
-    }else{
+    } else {
       return Future.value(true);
     }
   }
