@@ -5,6 +5,8 @@ import 'package:agendacontatos/helpers/contact_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
+enum OrderOptions {orderaz, orderza}
+
 class ContactPage extends StatefulWidget {
   final Contact contact;
 
@@ -51,6 +53,7 @@ class _ContactPageState extends State<ContactPage> {
             backgroundColor: Colors.red,
             title: Text(_editedContact.name ?? 'Novo contato'),
             centerTitle: true,
+
           ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {
